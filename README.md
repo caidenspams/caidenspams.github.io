@@ -8,7 +8,7 @@ A HTML & CSS website
 
 
 ## ⚙️ Requirements
-
+None
 
 
 ## 🎮 Usage
