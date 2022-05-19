@@ -1,24 +1,9 @@
-    body {
-      background-color: lightblue;
-    }
-
-    .Platformer {
-      background-color: black;
-    }
-
     header {
     color: wheat;
     background-color: #333333;
     text-align: center;
     padding: 20px;
     font-size: 200%;
-    }
-
-    footer {
-      background-color: lightblue;
-      text-align: center;
-      padding: 10px;
-      font-size: 111%;
     }
     
     a:link {
