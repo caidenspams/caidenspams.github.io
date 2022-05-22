@@ -5,8 +5,10 @@
     <title>C Games</title>
     <link rel="icon" href="galaxy.png">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1; shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+
     <style>
       /* Center the loader */
       #loader {
@@ -58,16 +60,28 @@
         text-align: center;
       }
 
-      body {
-        background-color: black;
-      } 
-
       footer {
       background-color: black;
       text-align: center;
       padding: 10px;
       font-size: 111%;
      }
+
+     body {
+        background-color: black;
+      } 
+
+      h1 {
+        color: white;
+      }
+
+      p {
+        color: white;
+      }
+
+      .social-icon {
+        color: white;
+      }
       </style>
   </head>
     <body onload="myFunction()" style="margin:0;">
@@ -76,30 +90,47 @@
       
       <div style="display:none;" id="myDiv" class="animate-bottom">
         <ul class="menu">
-          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="Platformer.html">Platformer</a></li>
           <li><a href="Game.html">Game</a></li>
           <li><a href="Clips.html">Clips</a></li>
           <li style="float:right"><a href="About.html">About</a></li>
         </ul>
         <header>My Website</header>
-        <h1 {
-          style="color: aliceblue;">
+        <body>
         
-         <div class="container">
+          <div class="container">
      
-         <nav class="navbar mt-5 mb-5">
-           <img src="images/logo.png" width="200">
-         </nav>
-     
-         <h1>More Comming Soon!</h1>
-         <div class="row">
-           <div class="col">
-             <img src="images/thumbnail.png" class="img-fluid">
-           </div>
-         </div>
-     
-         </div>
-     
+            <nav class="navbar mt-5 mb-5">
+              <a href="index.html"><img src="images/logo.png" width="110"></a>
+            </nav>
+        
+            <div class="row">
+   
+              <div class="col-7">
+                <img src="images/thumbnail.png" class="img-fluid" width="460">
+              </div>
+   
+            <div class="col-4">
+   
+             <h1 class="text-light">Babys Life</h1>
+             <p>
+               Hi
+             </p>
+             <button><a href="https://steugenerobotics.com.au/games/caiden/">Play</a></button>
+          
+   
+            </div>
+        
+            </div>
+
+            </div>
+
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        </body>
+        <hr>
         <a class="social-icon" href="https://www.youtube.com/channel/UCiPg6HT3oNXYFEAKLyOyVUg" target="_blank">
           <ion-icon name="logo-youtube"></ion-icon>
         </a>
@@ -110,9 +141,6 @@
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
-        <footer>
-          <p>By Caiden</p>
-         </footer>
       </div>
       
       <script>
@@ -128,9 +156,6 @@
       }
       </script>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     </body>
 
 
