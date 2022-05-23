@@ -35,6 +35,12 @@
 
    button {background-color: black;}
 
+   button:hover {
+     text-decoration: none;
+     color: white;
+   }
+
+
    li {
     float: left;
     }
