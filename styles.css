@@ -39,7 +39,11 @@
      text-decoration: none;
      color: white;
    }
-
+   
+   button:link {
+     text-decoration: none;
+     color: white;
+   }
 
    li {
     float: left;
