@@ -33,7 +33,11 @@
     background-color: #333;
     }
 
-   button {background-color: black;}
+   button {
+     background-color: black;
+     border-style: none;
+    }
+   
 
    button:hover {
      text-decoration: none;
