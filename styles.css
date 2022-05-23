@@ -13,6 +13,7 @@
 
     a:visited {
     text-decoration: none;
+    color: white;
     }
 
     a:hover {
@@ -36,18 +37,33 @@
    button {
      background-color: black;
      border: black;
+     color: white;
     }
    
 
    button:hover {
      text-decoration: none;
      color: white;
+     background-color: black;
    }
    
    button:link {
      text-decoration: none;
      color: white;
+     background-color: black;
    }
+
+   button:visited {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    }
+
+    button:active {
+      text-decoration: none; 
+      color: white;
+      background-color: black;
+    }
 
    li {
     float: left;
