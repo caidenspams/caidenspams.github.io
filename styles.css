@@ -36,7 +36,9 @@
      text-align: center;
     } 
 
-    button {background-color: black;}
+    button {
+      background-color: black;
+    }
 
    li {
     float: left;
