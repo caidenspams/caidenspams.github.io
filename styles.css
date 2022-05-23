@@ -30,13 +30,7 @@
     background-color: #333;
     }
 
-   button a {
-     text-decoration: none;
-     color: white;
-     text-align: center;
-    } 
-
-    button {background-color: black;}
+    button {background-color: black; color: white;}
 
    li {
     float: left;
